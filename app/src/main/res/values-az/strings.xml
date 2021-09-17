@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todo Gündəm</string>
+    <string name="widget_name">Todo Gündəm</string>
+    <string name="widget_instance_name">Vidget adı</string>
+    <string name="yesterday">Dünən</string>
+    <string name="today">Bugün</string>
+    <string name="tomorrow">Sabah</string>
+    <string name="not_initialized_yet">Hələ başladılmayıb...</string>
+    <string name="no_events_to_show">Göstəriləcək heç bir tədbir yoxdur</string>
+    <string name="no_upcoming_events">Yaxınlaşan tədbir yoxdur</string>
+    <string name="open_prefs_desc">Təqvim vidget tənzimləmələrini aç</string>
+    <string name="go_to_today">Bugünə get</string>
+    <string name="add_event_desc">Yeni təqvim tədbiri əlavə et</string>
+    <string name="indicator_alarm">Zəngli saat tənzimlənirsə göstərici yarat</string>
+    <string name="indicator_recurring">Tədbir təkrarlanırsa göstərici yarat</string>
+    <string name="no_title">(Başlıq yoxdur)</string>
+    <string name="grant_permissions">Verilən icazələr</string>
+    <string name="grant_permissions_verbose">Vidgetə təqvimləri oxumaq üçün icazə vermək lazımdır.\nİcazə vermək üçün toxunun.</string>
+    <string name="past_header">Keçmiş və son olanlar</string>
+    <string name="end_of_list_header">Digər tədbirlər</string>
+    <string name="permissions_justification">Təqviminə asanca müraciət edə biləcəyin Todo Gündəm-ə Xoş Gəldiniz.\n\nBir çox vidgeti əldə etmək üçün təqvimə müraciətə icazə vermək lazımdır.</string>
+    <string name="no_widgets_found">Zəhmət olmasa əvvəlcə cihazınızın əsas ekranından \"Todo Gündəm\"i əlavə edin.</string>
+    <string name="select_a_widget_to_configure">Konfiqurasiya etmək üçün bir vidget seçin</string>
+    <string name="close">Bağla</string>
+    <string name="go_to_home_screen">Əsas ekrana get</string>
+    <string name="loading_with_dots">Yüklənir...</string>
+    <string name="widget_header">Vidget başlığı</string>
+    <string name="day_header">Gün başlığı</string>
+    <string name="event_entry">Tədbir girişi</string>
+    <string name="todays_events">Bugünün tədbirləri</string>
+    <string name="future_events">Gələcək tədbirlər</string>
+    <string name="not_found">Tapılmadı</string>
+    <!-- Descriptions for app markets -->
+    <string name="app_description_80_chars_max">Seçilmiş təqvim və tapşırıq siyahılarından tədbirləri göstərən ekran vidgetləri</string>
+    <string name="app_description_4000_chars_max_part01">Todo Gündəm, Android cihazınız üçün əsas ekran vidgetləridir.
+        Hər vidgetin öz tənzimləmələri var və konfiqurasiya edilmiş təqvim tədbirləri və tapşırıqların siyahısını göstərər,
+        beləcə, hazırki və gələn görüşlərə asanca baxa biləcəksiniz.</string>
+    <string name="app_description_4000_chars_max_part02">Xüsusiyyətlər</string>
+    <string name="app_description_4000_chars_max_part15">Reklam yoxdur. Ödənişsiz və Açıq Mənbə.</string>
+    <string name="app_description_4000_chars_max_part03">Keçmişdə və gələcəkdəki seçilmiş dövrlər üçün
+        təqvimlərinizdən və tapşırıq siyahınızdan tədbirləri göstərər.</string>
+    <string name="app_description_4000_chars_max_part04">Bir tədbir əlavə edəndə/siləndə/dəyişdirəndə avtomatik olaraq yenilənəcək.
+        Və ya siyahını dərhal yeniləyə bilərsiniz.</string>
+    <string name="app_description_4000_chars_max_part05">Yalnız vidgetdə görmək istədiyiniz
+        təqvim və tapşırıq siyahısını seçin.</string>
+    <string name="app_description_4000_chars_max_part06">Əgər ehtiyac varsa, bir neçə vidget yaradın. Hər bir vidgetin düzüm, rəng,
+        filtr, seçimliş təqvim və tapşırıq siyahısı daxil olmaqla öz tənzimləmələri var.</string>
+    <string name="app_description_4000_chars_max_part07">Fərqli vidget hissələrinin, arxaplan rəngləri və şəffaflığını,
+        mətnlər üçün qara və ağ kölgələnməsini özəlləşdirin.</string>
+    <string name="app_description_4000_chars_max_part08">Tədbirlər siyahısında irəliləyin.
+        Dərhal bugünə qayıtmaq üçün \"Bugünə Get\" düyməsini istifadə edin.</string>
+    <string name="app_description_4000_chars_max_part09">Vidgetin mətn ölçüsünü özəlləşdirin.</string>
+    <string name="app_description_4000_chars_max_part10">Alternativ düzümlər ilə tamamilə yenidən ölçüləndirilə bilən vidget.</string>
+    <string name="app_description_4000_chars_max_part11">Xəbərdarlıq və təkrarlanan tədbirlər üçün göstəricilər.</string>
+    <string name="app_description_4000_chars_max_part12">Fərqli vaxt qurşaqlarına gedərkən vaxt qurşağını kilidləyin.</string>
+    <string name="app_description_4000_chars_max_part13">Vidget başlığını, Gün başlıqlarını, tədbir nişanlarını, bugündən Günləri
+        və s. bağlayın, yalnız ehtiyacınız olana baxın.</string>
+    <string name="app_description_4000_chars_max_part16">Təkrarlanan tədbirləri gizlədin.</string>
+    <string name="app_description_4000_chars_max_part17">Tənzimləmələri nüsxələmə və geri yükləmə,
+        eyni və ya fərqli cihazlarda vidgetləri klonlama.</string>
+    <string name="app_description_4000_chars_max_part14">Android 7+ dəstəklənir. Android planşetlərində dəstəklənir.</string>
+    <!-- Preference frame: Layout -->
+    <string name="layout_prefs_desc">Vidget elementlərini yerləşdirin, göstərin və gizlədin</string>
+    <string name="layout_prefs_title">Düzüm</string>
+    <string name="widget_header_layout">Vidget başlığı düzümü</string>
+    <string name="pref_event_entry_layout_title">Tədbir giriş düzümü</string>
+    <string name="default_multiline_layout">Vaxt alt başlığı</string>
+    <string name="widget_header_date_format">Vidget başlığı tarix formatı</string>
+    <string name="default_value">İlkin</string>
+    <string name="single_line_layout">Hamısı bir sətirdə</string>
+    <string name="two_rows_layout">İki sətirli düzüm</string>
+    <string name="hidden">Gizli</string>
+    <string name="appearance_day_header_alignment_desc">Gün başlığı qruplaşmasını tənzimlə</string>
+    <string name="appearance_day_header_alignment_title">Gün başlığı qruplaşması</string>
+    <string name="appearance_day_header_alignment_left">Sol</string>
+    <string name="appearance_day_header_alignment_center">Mərkəz</string>
+    <string name="appearance_day_header_alignment_right">Sağ</string>
+    <string name="horizontalLineBelowDayHeader">Gün başlığı altında horizontal xətt</string>
+    <string name="appearance_multiline_title_title">Çox sətirli başlıq</string>
+    <string name="appearance_multiline_title_desc">Tədbir başlıqlarını sətirlərə payla</string>
+    <string name="appearance_show_days_without_events_title">Günləri tədbirsiz göstər</string>
+    <string name="appearance_show_days_without_events_desc">Tədbirsiz günlər üçün gün başlıqlarını göstər</string>
+    <string name="appearance_show_day_headers_title">Gün başlıqlarını göstər</string>
+    <string name="appearance_show_day_headers_desc">Gün başlıqlarını heç bir halda göstərmə</string>
+    <string name="day_header_date_format">Gün başlığı vaxt formatı</string>
+    <string name="show_past_events_under_one_header_title">Keçmiş/son tədbirlər üçün başlıq</string>
+    <string name="show_past_events_under_one_header_desc">Bütün keçmiş/son tədbirləri bir \"Keçmiş və son\" başlığı altında göstər</string>
+    <string name="show_event_icon_title">Tədbir nişanını göstər</string>
+    <string name="show_event_icon_desc">Tədbir üçün Təqvim rəng sətrini / Tapşırıq nişanını göstər</string>
+    <string name="entry_date_format">Vaxt giriş formatı</string>
+    <string name="multiline_details_title">Çoxlu sətirli təfsilatlar</string>
+    <string name="multiline_details_desc">Tədbir vaxtını və yerləşməsini birdən çox sətirə yay</string>
+    <!-- Date format preference -->
+    <string name="simple_options">Sadə seçimlər</string>
+    <string name="date_format_default_weekday">Həftəiçi ilə İlkin Tənzimləmələr</string>
+    <string name="date_format_default_ytt">Dünən, Bugün və Sabah ilə İlkin Tənzimləmələr</string>
+    <!-- Preference frame: Colors -->
+    <string name="appearance_group_color_title">Rənglər</string>
+    <string name="appearance_background_color_title">Arxafon rəngi</string>
+    <string name="appearance_background_color_desc">Arxafon rəngini nizamla</string>
+    <string name="appearance_past_events_background_color_title">Keçmiş tədbirlərin arxaplan rəngi</string>
+    <string name="appearance_past_events_background_color_desc">Keçmiş tədbirlərin arxaplan rəngini nizamla.</string>
+    <string name="todays_events_background_color_title">Bugünün tədbirlərinin arxaplan rəngi</string>
+    <string name="todays_events_background_color_desc">Bugünün tədbirlərinin arxaplan rəngini nizamla</string>
+    <string name="appearance_header_theme_title">Vidget başlığı kölgəsi</string>
+    <string name="appearance_header_theme_desc">Vidget başlığını tünd və ya açıq kölgədə göstər</string>
+    <string name="appearance_entries_theme_title">Tədbir kölgəsi</string>
+    <string name="appearance_entries_theme_desc">Tədbir mətnini tünd və ya açıq kölgədə göstər</string>
+    <string name="appearance_theme_black">Ağ</string>
+    <string name="appearance_theme_dark">Açıq</string>
+    <string name="appearance_theme_light">Tünd</string>
+    <string name="appearance_theme_white">Qara</string>
+    <!-- Preference frame: Event details -->
+    <string name="event_details_prefs">Tədbir təfsilatı</string>
+    <string name="event_details_prefs_desc">Bir tədbir üçün göstəriləcək təfsilatları konfiqurasiya et</string>
+    <string name="event_details_show_end_time_title">Bitmə vaxtı</string>
+    <string name="event_details_show_end_time_desc">Tədbirin bitmə vaxtını göstər</string>
+    <string name="event_details_show_location_title">Yeri göstər</string>
+    <string name="event_details_show_location_desc">Tədbir yerini göstər və ya gizlət</string>
+    <string name="event_details_fill_all_day_events_title">Bütün gün tədbirlərini doldur</string>
+    <string name="event_details_fill_all_day_events_desc">Bütün gün tədbirinin hər günü üçün giriş göstər</string>
+    <string name="event_details_indicators">Göstəricilər</string>
+    <string name="event_details_indicate_alert_desc">Xəbərdarlıqlar üçün göstərici göstər</string>
+    <string name="event_details_indicate_alert_title">Xəbərdarlıqlar</string>
+    <string name="event_details_indicate_recurring_desc">Təkrarlanan təbirlər üçün göstərici göstər</string>
+    <string name="event_details_indicate_recurring_title">Təkrarlanan tədbirlər</string>
+    <!-- Preference frame: Event filters -->
+    <string name="event_filters_prefs">Tədbir filtrləri</string>
+    <string name="event_filters_prefs_desc">Hansı hazırki, gələcək və keçmiş tədbirlər göstəriləcək</string>
+    <string name="all_events">Bütün tədbirlər</string>
+    <string name="current_and_future_events">Hazırki və gələcək tədbirlər</string>
+    <string name="past_events">Keçmiş tədbirlər</string>
+    <string name="event_details_event_range_title">Tarix dövrü</string>
+    <string name="event_details_event_range_desc">Görüntülənəcək tədbirlərin sırasını konfiqurasiya edin</string>
+    <string name="event_range_today">Bugün</string>
+    <string name="event_range_one_day">Bir gün</string>
+    <string name="event_range_one_week">Bir həftə</string>
+    <string name="event_range_two_weeks">İki həftə</string>
+    <string name="event_range_one_month">Bir ay</string>
+    <string name="event_range_two_months">İki ay</string>
+    <string name="event_range_three_months">Üç ay</string>
+    <string name="event_range_six_months">Altı ay</string>
+    <string name="event_range_one_year">Bir il</string>
+    <string name="show_past_events_with_default_color_title">İlkin rəngə sahib olan bütün keçmiş tədbirləri göstər</string>
+    <string name="this_option_is_turned_off">(sıradan çıxarıldı)</string>
+    <string name="pref_events_ended_title">Təzəlikcə bitmiş tədbirləri göstər</string>
+    <string name="ended_one_hour_ago">Bir saat əvvəl bitdi</string>
+    <string name="ended_two_hours_ago">İki saat əvvəl bitdi</string>
+    <string name="ended_four_hours_ago">Dörd saat əvvəl bitdi</string>
+    <string name="ended_today">Bugün bitdi</string>
+    <string name="ended_yesterday">Dünən bitdi</string>
+    <string name="ended_one_week_ago">Bir həftə əvvəl bitdi</string>
+    <string name="ended_two_weeks_ago">İki həftə əvvəl bitdi</string>
+    <string name="ended_one_month_ago">Bir ay əvvəl bitdi</string>
+    <string name="ended_two_months_ago">İki ay əvvəl bitdi</string>
+    <string name="ended_three_months_ago">Üç ay əvvəl bitdi</string>
+    <string name="ended_six_months_ago">Altı ay əvvəl bitdi</string>
+    <string name="ended_one_year_ago">Bir il əvvəl bitdi</string>
+    <string name="pref_hide_based_on_keywords_title">Başlıqdakı açar sözləri gizlət</string>
+    <string name="show_only_closest_instance_of_recurring_event">Təkrarlanan bir tədbirin yalnız ən yaxın nümunəsini göstər</string>
+    <string name="hide_duplicates">Təkrarlananları gizlət</string>
+    <string name="task_scheduling_title">Tapşırıq planlama</string>
+    <string name="task_scheduling_date_due">Tapşırıqları son tarix altında göstər</string>
+    <string name="task_scheduling_date_started">Tapşırıqları başlanğıc tarixi altında göstər</string>
+    <string name="tasks_wo_dates_title">Başlama və bitmə tarixi olmayan tapşırıqlar</string>
+    <string name="tasks_wo_dates_end_of_list">Bütün tədbir siyahısının sonunda göstər</string>
+    <string name="tasks_wo_dates_end_of_today">Bugünün sonunda göstər</string>
+    <string name="tasks_wo_dates_hide">Gizlət</string>
+    <string name="filter_mode">Filtr nasazlıqlarını aşkarlayan</string>
+    <string name="filter_mode_normal">Normal filtrləmə</string>
+    <string name="filter_mode_debug">Sazlama filtrləməsi</string>
+    <string name="filter_mode_no_filtering">Bütün filtrlərə əhəmiyyət vermə (onları bağla)</string>
+    <!-- Preference frame: Calendars and Task Lists -->
+    <string name="calendars_prefs">Təqvimlər və Tapşırıq Siyahıları</string>
+    <string name="calendars_prefs_desc">Görüntülənəcək təqvimləri və tapşırıq siyahılarını seç</string>
+    <string name="task_source_opentasks">OpenTasks (dmfs GmbH tərəfindən)</string>
+    <string name="task_source_samsung">Samsung Təqvim</string>
+    <!-- Preference frame: Other -->
+    <string name="device_default">İlkin</string>
+    <string name="other_prefs_desc">Ölçü, tarix və vaxt formatı və s.</string>
+    <string name="other_prefs_title">Digər tənzimləmələr</string>
+    <string name="appearance_prefs">Görünüş</string>
+    <string name="appearance_prefs_desc">Vidget görünüşünü nizamla</string>
+    <string name="appearance_text_size_title">Mətn ölçüsü</string>
+    <string name="appearance_text_size_desc">Mətn ölçüsünü nizamla</string>
+    <string name="appearance_text_size_very_small">Çox kiçik</string>
+    <string name="appearance_text_size_small">Kiçik</string>
+    <string name="appearance_text_size_medium">Orta</string>
+    <string name="appearance_text_size_large">Böyük</string>
+    <string name="appearance_text_size_very_large">Çox böyük</string>
+    <string name="appearance_date_format_desc">Vaxtı gə/gs və ya 24 saat formatında göstər</string>
+    <string name="appearance_time_format_title">Vaxt formatı</string>
+    <string name="appearance_date_format_auto">Avtomatik</string>
+    <string name="appearance_date_format_24">17:00</string>
+    <string name="appearance_date_format_12">5:00 gs</string>
+    <string name="lock_time_zone_off_desc">Kilid açıldı, hazırki bölgə: %s</string>
+    <string name="lock_time_zone_on_desc">%s-də kilidləndi</string>
+    <string name="lock_time_zone_title">Saat qurşağını kilidlə</string>
+    <string name="snapshot_mode">Tədbirlər siyahısını kilidlə (Ani şəkil rejimi)</string>
+    <string name="snapshot_mode_live_data">Gerçək mənbələrdən canlı verilənlər</string>
+    <string name="snapshot_mode_time">Ani şəkil çəkildiyi vaxt, göründüyü kimidir: %s</string>
+    <string name="snapshot_mode_now">Saxlanılmış ani şəkil hazırki vaxtda göstərilir (çəkildi: %s)</string>
+    <string name="refresh_period_minutes">Avtomatik təzələmə periodu, dəqiqə</string>
+    <string name="refresh_period_minutes_desc">Vidgeti hər %d dəqiqədən bir avtomatik təzələ</string>
+    <!-- Preference frame: Feedback and Backup -->
+    <string name="feedback_prefs">Əks əlaqə və Nüsxələmə</string>
+    <string name="feedback_prefs_desc">Bizimlə əlaqədə qalın, tənzimləmələri nüsxələyin və geri yükləyin</string>
+    <string name="feedback_github_desc">Layihə səhifəsinə əks əlaqə verin</string>
+    <string name="feedback_github_title">Github-da vidgeti ziyarət edin</string>
+    <string name="feedback_play_store_desc">Google Play Store-da rəy bildirin və bizə qiymət verin</string>
+    <string name="feedback_play_store_title">Google Play Store-da vidgeti ziyarət edin</string>
+    <string name="refresh_desc">Təzələ</string>
+    <string name="share_events_for_debugging_desc">Nasazlıqların aşkarlanması problemlərində tərtibatçılara kömək etmək üçün bir hesabat yaradın.
+        Paylaşmazdan əvvəl gizliliyinizi qorumaq üçün tədbirləri filtrləyin, ancaq problemi göstərin</string>
+    <string name="share_events_for_debugging_title">Sazlamaq üçün tədbirləri və tənzimləmələri paylaş</string>
+    <string name="backup_settings_title">Nüsxələmə tənzimləmələri</string>
+    <string name="backup_settings_desc">\"Sazlamaq üçün tədbirləri paylaşın\" ilə eyni, amma tədbirləri ehtiva etmir</string>
+    <string name="restore_settings_title">Tənzimləmələri geri yüklə</string>
+    <string name="restore_settings_desc">Hər bir ToDo Gündəm vidgetinin tənzimləmələri ayrıca geri yüklənməlidir</string>
+</resources>

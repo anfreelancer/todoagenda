@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:fragment="com.luteapp.todoagenda.prefs.LayoutPreferencesFragment"
+        android:summary="@string/layout_prefs_desc"
+        android:title="@string/layout_prefs_title" />
+    <Preference
+        android:key="ColorsPreferencesFragment"
+        android:persistent="false"
+        android:fragment="com.luteapp.todoagenda.prefs.colors.ColorsPreferencesFragment"
+        android:summary="@string/colors_prefs_desc"
+        android:title="@string/appearance_group_color_title" />
+    <Preference
+        android:fragment="com.luteapp.todoagenda.prefs.EventDetailsPreferencesFragment"
+        android:summary="@string/event_details_prefs_desc"
+        android:title="@string/event_details_prefs" />
+    <Preference
+        android:fragment="com.luteapp.todoagenda.prefs.EventFiltersPreferencesFragment"
+        android:summary="@string/event_filters_prefs_desc"
+        android:title="@string/event_filters_prefs" />
+    <Preference
+        android:fragment="com.luteapp.todoagenda.prefs.EventSourcesPreferencesFragment"
+        android:summary="@string/calendars_prefs_desc"
+        android:title="@string/calendars_prefs" />
+    <Preference
+        android:fragment="com.luteapp.todoagenda.prefs.OtherPreferencesFragment"
+        android:summary="@string/other_prefs_desc"
+        android:title="@string/other_prefs_title" />
+    <Preference
+        android:fragment="com.luteapp.todoagenda.prefs.FeedbackPreferencesFragment"
+        android:summary="@string/feedback_prefs_desc"
+        android:title="@string/feedback_prefs" />
+</PreferenceScreen>

@@ -1,0 +1,1247 @@
+{
+  "deviceInfo": {
+    "versionCode": 25,
+    "versionRelease": "7.1.1",
+    "versionCodename": "REL",
+    "buildManufacturer": "LENOVO",
+    "buildBrand": "Lenovo",
+    "buildModel": "Lenovo TB-X704L"
+  },
+  "applicationInfo": {
+    "versionName": "4.2.3",
+    "versionCode": 686
+  },
+  "settings": {
+    "widgetId": 51,
+    "widgetHeaderDateFormat": "defaultWeekday:",
+    "widgetInstanceName": "Todo Agenda 51",
+    "activeSources": [
+      {
+        "providerType": 1,
+        "id": 3,
+        "title": "Events",
+        "summary": "yvolk1@gmail.com",
+        "color": -6644481,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 6,
+        "title": "ToDo Agenda Shared",
+        "summary": "calendar.widget.android@gmail.com",
+        "color": -6644481,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 9,
+        "title": "andstatus@gmail.com",
+        "summary": "andstatus@gmail.com",
+        "color": -6299161,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 13,
+        "title": "Family",
+        "summary": "yvolk1@gmail.com",
+        "color": -5475746,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 14,
+        "title": "Contacts",
+        "summary": "yvolk1@gmail.com",
+        "color": -6299161,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 15,
+        "title": "Contacts",
+        "summary": "calendar.widget.android@gmail.com",
+        "color": -7151168,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 16,
+        "title": "Holidays in Russian Federation",
+        "summary": "yvolk1@gmail.com",
+        "color": -15292571,
+        "isAvailable": true
+      },
+      {
+        "providerType": 1,
+        "id": 17,
+        "title": "Contacts",
+        "summary": "andstatus@gmail.com",
+        "color": -7151168,
+        "isAvailable": true
+      },
+      {
+        "providerType": 2,
+        "id": 1,
+        "title": "My tasks",
+        "summary": "Local",
+        "color": -14776091,
+        "isAvailable": true
+      },
+      {
+        "providerType": 2,
+        "id": 4,
+        "title": "Test tasks 001",
+        "summary": "Local",
+        "color": -6993267,
+        "isAvailable": true
+      },
+      {
+        "providerType": 4,
+        "id": 1,
+        "title": "Default Astrid list",
+        "summary": "",
+        "color": -10453621,
+        "isAvailable": true
+      }
+    ],
+    "eventRange": 1,
+    "eventsEnded": "YESTERDAY",
+    "fillAllDay": true,
+    "hideBasedOnKeywords": "",
+    "widgetHeaderBackgroundColor": 0,
+    "pastEventsBackgroundColor": -1082623956,
+    "todaysEventsBackgroundColor": -620756993,
+    "backgroundColor": -2147483648,
+    "showDaysWithoutEvents": false,
+    "showDayHeaders": true,
+    "dayHeaderDateFormat": "defaultWeekday:",
+    "horizontalLineBelowDayHeader": false,
+    "showPastEventsUnderOneHeader": false,
+    "showPastEventsWithDefaultColor": false,
+    "showEventIcon": true,
+    "entryDateFormat": "days:bbbb",
+    "showEndTime": true,
+    "showLocation": true,
+    "dateFormat": "auto",
+    "lockedTimeZoneId": "",
+    "snapshotMode": "live_data",
+    "refreshPeriodMinutes": 10,
+    "eventEntryLayout": "DEFAULT",
+    "multiline_title": false,
+    "multiline_details": false,
+    "showOnlyClosestInstanceOfRecurringEvent": false,
+    "hideDuplicates": false,
+    "allDayEventsPlacement": "bottom_day",
+    "taskScheduling": "date_due",
+    "taskWithoutDates": "end_of_list",
+    "filterMode": "normal",
+    "indicateAlerts": true,
+    "indicateRecurring": false,
+    "compactLayout": false,
+    "widgetHeaderLayout": "ONE_ROW",
+    "headerTheme": "DARK",
+    "dayHeaderThemePast": "DARK",
+    "entryThemePast": "BLACK",
+    "dayHeaderTheme": "LIGHT",
+    "entryTheme": "WHITE",
+    "dayHeaderThemeFuture": "DARK",
+    "entryThemeFuture": "BLACK",
+    "textSizeScale": "1.0",
+    "dayHeaderAlignment": "RIGHT"
+  },
+  "resultsVersion": 3,
+  "results": [
+    {
+      "providerType": 1,
+      "executedAt": 1599937165172,
+      "timeZoneId": "Europe\/Moscow",
+      "millisOffsetUtcToLocal": 10800000,
+      "standardMillisOffsetUtcToLocal": 10800000,
+      "uri": "content:\/\/com.android.calendar\/instances\/when\/1599771600000\/1600023565172",
+      "projection": [
+        "calendar_id",
+        "event_id",
+        "title",
+        "begin",
+        "end",
+        "allDay",
+        "eventLocation",
+        "hasAlarm",
+        "rrule",
+        "displayColor",
+        "calendar_color"
+      ],
+      "selection": "selfAttendeeStatus!=2 AND (calendar_id = 3 OR calendar_id = 6 OR calendar_id = 9 OR calendar_id = 13 OR calendar_id = 14 OR calendar_id = 15 OR calendar_id = 16 OR calendar_id = 17 )",
+      "selectionArgs": [],
+      "sortOrder": "startDay ASC, allDay DESC, begin ASC ",
+      "rows": [
+        {
+          "calendar_color": {
+            "type": 1,
+            "value": -6644481
+          },
+          "displayColor": {
+            "type": 1,
+            "value": -6644481
+          },
+          "title": {
+            "type": 3,
+            "value": "Event at midnight"
+          },
+          "event_id": {
+            "type": 1,
+            "value": 724
+          },
+          "allDay": {
+            "type": 1,
+            "value": 0
+          },
+          "calendar_id": {
+            "type": 1,
+            "value": 6
+          },
+          "begin": {
+            "type": 1,
+            "value": 1599771600000
+          },
+          "eventLocation": {
+            "type": 3,
+            "value": ""
+          },
+          "end": {
+            "type": 1,
+            "value": 1599775200000
+          },
+          "hasAlarm": {
+            "type": 1,
+            "value": 1
+          }
+        },
+        {
+          "calendar_color": {
+            "type": 1,
+            "value": -6644481
+          },
+          "displayColor": {
+            "type": 1,
+            "value": -30596
+          },
+          "title": {
+            "type": 3,
+            "value": "Playing with kids in the park"
+          },
+          "event_id": {
+            "type": 1,
+            "value": 543
+          },
+          "allDay": {
+            "type": 1,
+            "value": 0
+          },
+          "calendar_id": {
+            "type": 1,
+            "value": 6
+          },
+          "begin": {
+            "type": 1,
+            "value": 1599807600000
+          },
+          "eventLocation": {
+            "type": 3,
+            "value": ""
+          },
+          "end": {
+            "type": 1,
+            "value": 1599811200000
+          },
+          "hasAlarm": {
+            "type": 1,
+            "value": 1
+          }
+        },
+        {
+          "calendar_color": {
+            "type": 1,
+            "value": -6644481
+          },
+          "displayColor": {
+            "type": 1,
+            "value": -6644481
+          },
+          "title": {
+            "type": 3,
+            "value": "Another calendar event"
+          },
+          "event_id": {
+            "type": 1,
+            "value": 513
+          },
+          "allDay": {
+            "type": 1,
+            "value": 0
+          },
+          "calendar_id": {
+            "type": 1,
+            "value": 6
+          },
+          "begin": {
+            "type": 1,
+            "value": 1599829200000
+          },
+          "eventLocation": {
+            "type": 3,
+            "value": ""
+          },
+          "end": {
+            "type": 1,
+            "value": 1599832800000
+          },
+          "hasAlarm": {
+            "type": 1,
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "providerType": 2,
+      "executedAt": 1599937165192,
+      "timeZoneId": "Europe\/Moscow",
+      "millisOffsetUtcToLocal": 10800000,
+      "standardMillisOffsetUtcToLocal": 10800000,
+      "uri": "content:\/\/org.dmfs.tasks\/tasks",
+      "projection": [
+        "list_id",
+        "_id",
+        "title",
+        "due",
+        "dtstart",
+        "is_allday",
+        "list_color",
+        "status"
+      ],
+      "selection": "status != 2 AND (dtstart <= 1600023565192 OR dtstart IS NULL ) AND list_id IN ( 4,1 )",
+      "selectionArgs": [],
+      "sortOrder": "",
+      "rows": [
+        {
+          "list_id": {
+            "type": 1,
+            "value": 4
+          },
+          "list_color": {
+            "type": 1,
+            "value": -6993267
+          },
+          "_id": {
+            "type": 1,
+            "value": 21
+          },
+          "title": {
+            "type": 3,
+            "value": "Starting some day... (undefined yet)"
+          },
+          "status": {
+            "type": 1,
+            "value": 0
+          }
+        },
+        {
+          "list_id": {
+            "type": 1,
+            "value": 4
+          },
+          "list_color": {
+            "type": 1,
+            "value": -6993267
+          },
+          "due": {
+            "type": 1,
+            "value": 1599782400000
+          },
+          "is_allday": {
+            "type": 1,
+            "value": 1
+          },
+          "_id": {
+            "type": 1,
+            "value": 23
+          },
+          "title": {
+            "type": 3,
+            "value": "All day Dmfs task"
+          },
+          "status": {
+            "type": 1,
+            "value": 0
+          }
+        },
+        {
+          "list_id": {
+            "type": 1,
+            "value": 4
+          },
+          "list_color": {
+            "type": 1,
+            "value": -6993267
+          },
+          "due": {
+            "type": 1,
+            "value": 1599782400000
+          },
+          "is_allday": {
+            "type": 1,
+            "value": 0
+          },
+          "_id": {
+            "type": 1,
+            "value": 24
+          },
+          "title": {
+            "type": 3,
+            "value": "Dmfs task due on midnight GMT"
+          },
+          "status": {
+            "type": 1,
+            "value": 0
+          }
+        },
+        {
+          "list_id": {
+            "type": 1,
+            "value": 4
+          },
+          "list_color": {
+            "type": 1,
+            "value": -6993267
+          },
+          "due": {
+            "type": 1,
+            "value": 1600149600000
+          },
+          "is_allday": {
+            "type": 1,
+            "value": 0
+          },
+          "_id": {
+            "type": 1,
+            "value": 22
+          },
+          "title": {
+            "type": 3,
+            "value": "Due on Tuesday morning"
+          },
+          "status": {
+            "type": 1,
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "providerType": 4,
+      "executedAt": 1599937165209,
+      "timeZoneId": "Europe\/Moscow",
+      "millisOffsetUtcToLocal": 10800000,
+      "standardMillisOffsetUtcToLocal": 10800000,
+      "uri": "content:\/\/org.tasks\/todoagenda",
+      "projection": [
+        "cdl_icon",
+        "cd_vtodo",
+        "gt_task",
+        "gt_remote_id",
+        "cdl_color",
+        "cd_object",
+        "notes",
+        "gtl_id",
+        "notificationFlags",
+        "estimatedSeconds",
+        "remoteId",
+        "elapsedSeconds",
+        "gt_remote_order",
+        "gt_deleted",
+        "cd_id",
+        "cdl_uuid",
+        "gtl_account",
+        "cd_last_sync",
+        "gtl_color",
+        "gt_id",
+        "gtl_last_sync",
+        "parent_uuid",
+        "gt_parent",
+        "gt_remote_parent",
+        "gt_order",
+        "cd_task",
+        "cd_remote_id",
+        "timerStart",
+        "cdl_order",
+        "cd_etag",
+        "gt_moved",
+        "cd_order",
+        "cd_calendar",
+        "gtl_remote_order",
+        "completed",
+        "lastNotified",
+        "cdl_name",
+        "cdl_account",
+        "_id",
+        "cdl_ctag",
+        "repeatUntil",
+        "recurrence",
+        "dueDate",
+        "cd_deleted",
+        "modified",
+        "gt_list_id",
+        "cdl_url",
+        "hideUntil",
+        "importance",
+        "gtl_title",
+        "cdl_id",
+        "gtl_icon",
+        "parent",
+        "notifications",
+        "calendarUri",
+        "snoozeTime",
+        "gtl_remote_id",
+        "collapsed",
+        "title",
+        "deleted",
+        "gt_last_sync",
+        "cd_remote_parent",
+        "created"
+      ],
+      "selection": "completed = 0 AND hideUntil <= 1600023565209 AND cdl_id IN ( 1 )",
+      "selectionArgs": [],
+      "sortOrder": "",
+      "rows": [
+        {
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": -10453621
+          },
+          "cd_object": {
+            "type": 3,
+            "value": "4492682779157983121.ics"
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "2657574525581334863"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 1
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 4
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "4492682779157983121"
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 1599901259999
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Default Astrid list"
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          },
+          "_id": {
+            "type": 1,
+            "value": 4
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 1599814801000
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599804869202
+          },
+          "cdl_url": {
+            "type": 3,
+            "value": ""
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 1
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 0
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "title": {
+            "type": 3,
+            "value": "Task at noon"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599804793597
+          }
+        },
+        {
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": -10453621
+          },
+          "cd_object": {
+            "type": 3,
+            "value": "3793592934713650300.ics"
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "2306683977628838949"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 2
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 5
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "3793592934713650300"
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_order": {
+            "type": 1,
+            "value": 621497592
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 1599922859999
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Default Astrid list"
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          },
+          "_id": {
+            "type": 1,
+            "value": 5
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 1599814800000
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599935375230
+          },
+          "cdl_url": {
+            "type": 3,
+            "value": ""
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 1
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 0
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "title": {
+            "type": 3,
+            "value": "Astrid task without time"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599804871838
+          }
+        },
+        {
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": -10453621
+          },
+          "cd_object": {
+            "type": 3,
+            "value": "1159320718220408157.ics"
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "3788842593717950863"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 3
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 6
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "1159320718220408157"
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_order": {
+            "type": 1,
+            "value": 621497591
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 1599922859999
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Default Astrid list"
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          },
+          "_id": {
+            "type": 1,
+            "value": 6
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 1599901200000
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599804946263
+          },
+          "cdl_url": {
+            "type": 3,
+            "value": ""
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 1
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 0
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "title": {
+            "type": 3,
+            "value": "Next day without time"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599804923883
+          }
+        },
+        {
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": -10453621
+          },
+          "cd_object": {
+            "type": 3,
+            "value": "885000948649510047.ics"
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "3375732437154985651"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 4
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 7
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "885000948649510047"
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_order": {
+            "type": 1,
+            "value": 621497590
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 1599904859999
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Default Astrid list"
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          },
+          "_id": {
+            "type": 1,
+            "value": 7
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 1599818401000
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599805143054
+          },
+          "cdl_url": {
+            "type": 3,
+            "value": ""
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 1
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 0
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "title": {
+            "type": 3,
+            "value": "Task at One PM"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599805107664
+          }
+        },
+        {
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": -10453621
+          },
+          "cd_object": {
+            "type": 3,
+            "value": "3400010634771821856.ics"
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "861687380502311173"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 5
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 8
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "3400010634771821856"
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_order": {
+            "type": 1,
+            "value": 621497589
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3884794812358147279"
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 1599890999999
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Default Astrid list"
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          },
+          "_id": {
+            "type": 1,
+            "value": 8
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 1599804001000
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599805267647
+          },
+          "cdl_url": {
+            "type": 3,
+            "value": ""
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 1
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 1599890400000
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "title": {
+            "type": 3,
+            "value": "Task at nine AM"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599805236906
+          }
+        }
+      ]
+    }
+  ]
+}

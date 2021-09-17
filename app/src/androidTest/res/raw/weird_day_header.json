@@ -1,0 +1,433 @@
+{
+  "deviceInfo": {
+    "versionCode": 29,
+    "versionRelease": "10",
+    "versionCodename": "REL",
+    "buildManufacturer": "OnePlus",
+    "buildBrand": "OnePlus",
+    "buildModel": "GM1911"
+  },
+  "applicationInfo": {
+    "versionName": "4.2.3",
+    "versionCode": 686
+  },
+  "settings": {
+    "widgetId": 14,
+    "widgetHeaderDateFormat": "defaultWeekday:",
+    "widgetInstanceName": "Todo Agenda 14",
+    "activeSources": [
+      {
+        "providerType": 4,
+        "id": 15,
+        "title": "Widget Testing",
+        "summary": "",
+        "color": 0,
+        "isAvailable": true
+      }
+    ],
+    "eventRange": 30,
+    "eventsEnded": "NONE",
+    "fillAllDay": true,
+    "hideBasedOnKeywords": "",
+    "widgetHeaderBackgroundColor": 0,
+    "pastEventsBackgroundColor": -1082623956,
+    "todaysEventsBackgroundColor": -620756993,
+    "backgroundColor": -2147483648,
+    "showDaysWithoutEvents": false,
+    "showDayHeaders": true,
+    "dayHeaderDateFormat": "defaultWeekday:",
+    "horizontalLineBelowDayHeader": false,
+    "showPastEventsUnderOneHeader": false,
+    "showPastEventsWithDefaultColor": false,
+    "showEventIcon": true,
+    "entryDateFormat": "days:bbbb",
+    "showEndTime": true,
+    "showLocation": true,
+    "dateFormat": "auto",
+    "lockedTimeZoneId": "",
+    "snapshotMode": "live_data",
+    "refreshPeriodMinutes": 10,
+    "eventEntryLayout": "DEFAULT",
+    "multiline_title": false,
+    "multiline_details": false,
+    "showOnlyClosestInstanceOfRecurringEvent": false,
+    "hideDuplicates": false,
+    "taskScheduling": "date_due",
+    "taskWithoutDates": "end_of_list",
+    "filterMode": "normal",
+    "indicateAlerts": true,
+    "indicateRecurring": false,
+    "compactLayout": false,
+    "widgetHeaderLayout": "ONE_ROW",
+    "headerTheme": "DARK",
+    "dayHeaderThemePast": "DARK",
+    "entryThemePast": "BLACK",
+    "dayHeaderTheme": "DARK",
+    "entryTheme": "DARK",
+    "dayHeaderThemeFuture": "LIGHT",
+    "entryThemeFuture": "DARK",
+    "textSizeScale": "1.0",
+    "dayHeaderAlignment": "RIGHT"
+  },
+  "resultsVersion": 3,
+  "results": [
+    {
+      "providerType": 4,
+      "executedAt": 1599976763101,
+      "timeZoneId": "Asia\/Kolkata",
+      "millisOffsetUtcToLocal": 19800000,
+      "standardMillisOffsetUtcToLocal": 19800000,
+      "uri": "content:\/\/org.tasks\/todoagenda",
+      "projection": [
+        "gtl_account",
+        "cd_object",
+        "parent",
+        "cd_order",
+        "notes",
+        "dueDate",
+        "gt_last_sync",
+        "cd_vtodo",
+        "cd_last_sync",
+        "cdl_id",
+        "cdl_uuid",
+        "gt_parent",
+        "snoozeTime",
+        "gt_task",
+        "cdl_url",
+        "cd_id",
+        "modified",
+        "cdl_color",
+        "cd_deleted",
+        "cdl_name",
+        "estimatedSeconds",
+        "cd_etag",
+        "gt_order",
+        "created",
+        "completed",
+        "repeatUntil",
+        "recurrence",
+        "parent_uuid",
+        "notificationFlags",
+        "gtl_color",
+        "cdl_icon",
+        "cd_calendar",
+        "gtl_icon",
+        "_id",
+        "lastNotified",
+        "cd_task",
+        "notifications",
+        "cdl_order",
+        "timerStart",
+        "importance",
+        "collapsed",
+        "cd_remote_id",
+        "title",
+        "gt_id",
+        "gt_remote_id",
+        "gt_deleted",
+        "gtl_remote_id",
+        "cdl_ctag",
+        "calendarUri",
+        "gtl_title",
+        "elapsedSeconds",
+        "gt_moved",
+        "gt_remote_order",
+        "cd_remote_parent",
+        "gtl_id",
+        "gtl_remote_order",
+        "hideUntil",
+        "remoteId",
+        "deleted",
+        "gt_remote_parent",
+        "gtl_last_sync",
+        "cdl_account",
+        "gt_list_id"
+      ],
+      "selection": "completed = 0 AND hideUntil <= 1602568763101 AND cdl_id IN ( 15 )",
+      "selectionArgs": [],
+      "sortOrder": "",
+      "rows": [
+        {
+          "cd_object": {
+            "type": 3,
+            "value": "1502853656344784351.ics"
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 15
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3501830923649624372"
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 3765
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599976644323
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Widget Testing"
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599976638068
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3501830923649624372"
+          },
+          "_id": {
+            "type": 1,
+            "value": 3357
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 3357
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "1502853656344784351"
+          },
+          "title": {
+            "type": 3,
+            "value": "Task in widget testing"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": -86400000
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "1910907419188615064"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          }
+        },
+        {
+          "cd_object": {
+            "type": 3,
+            "value": "4262110760745279890.ics"
+          },
+          "parent": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_order": {
+            "type": 1,
+            "value": 621669437
+          },
+          "dueDate": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_last_sync": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_id": {
+            "type": 1,
+            "value": 15
+          },
+          "cdl_uuid": {
+            "type": 3,
+            "value": "3501830923649624372"
+          },
+          "snoozeTime": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_id": {
+            "type": 1,
+            "value": 3766
+          },
+          "modified": {
+            "type": 1,
+            "value": 1599976737732
+          },
+          "cdl_color": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_name": {
+            "type": 3,
+            "value": "Widget Testing"
+          },
+          "estimatedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "created": {
+            "type": 1,
+            "value": 1599976714039
+          },
+          "completed": {
+            "type": 1,
+            "value": 0
+          },
+          "repeatUntil": {
+            "type": 1,
+            "value": 0
+          },
+          "notificationFlags": {
+            "type": 1,
+            "value": 6
+          },
+          "cdl_icon": {
+            "type": 1,
+            "value": -1
+          },
+          "cd_calendar": {
+            "type": 3,
+            "value": "3501830923649624372"
+          },
+          "_id": {
+            "type": 1,
+            "value": 3358
+          },
+          "lastNotified": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_task": {
+            "type": 1,
+            "value": 3358
+          },
+          "notifications": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_order": {
+            "type": 1,
+            "value": -1
+          },
+          "timerStart": {
+            "type": 1,
+            "value": 0
+          },
+          "importance": {
+            "type": 1,
+            "value": 2
+          },
+          "collapsed": {
+            "type": 1,
+            "value": 0
+          },
+          "cd_remote_id": {
+            "type": 3,
+            "value": "4262110760745279890"
+          },
+          "title": {
+            "type": 3,
+            "value": "https:\/\/google.com"
+          },
+          "elapsedSeconds": {
+            "type": 1,
+            "value": 0
+          },
+          "hideUntil": {
+            "type": 1,
+            "value": -86400000
+          },
+          "remoteId": {
+            "type": 3,
+            "value": "877583453880762204"
+          },
+          "deleted": {
+            "type": 1,
+            "value": 0
+          },
+          "cdl_account": {
+            "type": 3,
+            "value": "local"
+          }
+        }
+      ]
+    }
+  ]
+}

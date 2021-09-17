@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Black -->
+    <color name="header_current_date_black">#dcffffff</color>
+    <color name="day_header_title_black">#fff</color>
+    <color name="day_header_separator_black">#77ffffff</color>
+    <color name="event_entry_title_black">#fff</color>
+    <color name="event_entry_details_black">#bbb</color>
+    <color name="colorPrimary">#009688</color>
+
+    <!-- Dark -->
+    <color name="header_current_date_dark">#9affffff</color>
+    <color name="day_header_title_dark">#ccc</color>
+    <color name="day_header_separator_dark">#55cccccc</color>
+    <color name="event_entry_title_dark">#ccc</color>
+    <color name="event_entry_details_dark">#999</color>
+
+    <!-- Light -->
+    <color name="header_current_date_light">#99000000</color>
+    <color name="day_header_title_light">#777</color>
+    <color name="day_header_separator_light">#33000000</color>
+    <color name="event_entry_title_light">#555</color>
+    <color name="event_entry_details_light">#999</color>
+
+    <!-- White -->
+    <color name="header_current_date_white">#cc000000</color>
+    <color name="day_header_title_white">#000</color>
+    <color name="day_header_separator_white">#22000000</color>
+    <color name="event_entry_title_white">#000</color>
+    <color name="event_entry_details_white">#555</color>
+
+    <!-- Task list colors for providers that don't supply this information -->
+    <color name="task_list_0">#2196f3</color>
+    <color name="task_list_1">#009688</color>
+    <color name="task_list_2">#607d8d</color>
+    <color name="task_list_3">#795548</color>
+    <color name="task_list_4">#ffc107</color>
+    <color name="task_list_5">#f44336</color>
+    <color name="task_list_6">#00bcd4</color>
+    <color name="task_list_7">#cddc39</color>
+    <color name="task_list_8">#9c27b0</color>
+    <color name="task_list_9">#4caf59</color>
+
+    <color name="tasks_priority_high">#f44336</color>
+    <color name="tasks_priority_medium">#ffc107</color>
+    <color name="tasks_priority_low">#2196f3</color>
+    <color name="tasks_priority_none">#9e9e9e</color>
+
+</resources>

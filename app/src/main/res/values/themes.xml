@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="Theme.CalendarConfiguration.Dark" parent="Theme.AppCompat.DayNight" />
+
+    <style name="Theme.ToDoAgenda.Black" parent="Theme.AppCompat">
+        <item name="header">@color/header_current_date_black</item>
+        <item name="header_action_overflow">@drawable/ic_action_overflow_light</item>
+        <item name="header_action_go_to_today">@drawable/ic_action_today_light</item>
+        <item name="header_action_add_event">@drawable/ic_action_add_event_light</item>
+        <item name="header_action_add_task">@drawable/ic_action_add_task_light</item>
+        <item name="header_action_refresh">@drawable/ic_action_refresh_light</item>
+        <item name="dayHeaderTitle">@color/day_header_title_black</item>
+        <item name="dayHeaderSeparator">@color/day_header_separator_black</item>
+        <item name="eventEntryTitle">@color/event_entry_title_black</item>
+        <item name="eventEntryDetails">@color/event_entry_details_black</item>
+        <item name="eventEntryAlarm">@drawable/ic_alarm_light</item>
+        <item name="eventEntryRecurring">@drawable/ic_recurring_light</item>
+    </style>
+
+    <style name="Theme.ToDoAgenda.Dark" parent="Theme.AppCompat">
+        <item name="header">@color/header_current_date_dark</item>
+        <item name="header_action_overflow">@drawable/ic_action_overflow_light</item>
+        <item name="header_action_go_to_today">@drawable/ic_action_today_light</item>
+        <item name="header_action_add_event">@drawable/ic_action_add_event_light</item>
+        <item name="header_action_add_task">@drawable/ic_action_add_task_light</item>
+        <item name="header_action_refresh">@drawable/ic_action_refresh_light</item>
+        <item name="dayHeaderTitle">@color/day_header_title_dark</item>
+        <item name="dayHeaderSeparator">@color/day_header_separator_dark</item>
+        <item name="eventEntryTitle">@color/event_entry_title_dark</item>
+        <item name="eventEntryDetails">@color/event_entry_details_dark</item>
+        <item name="eventEntryAlarm">@drawable/ic_alarm_light</item>
+        <item name="eventEntryRecurring">@drawable/ic_recurring_light</item>
+    </style>
+
+    <style name="Theme.ToDoAgenda.Light" parent="Theme.AppCompat.Light">
+        <item name="header">@color/header_current_date_light</item>
+        <item name="header_action_overflow">@drawable/ic_action_overflow_dark</item>
+        <item name="header_action_go_to_today">@drawable/ic_action_today_dark</item>
+        <item name="header_action_add_event">@drawable/ic_action_add_event_dark</item>
+        <item name="header_action_add_task">@drawable/ic_action_add_task_dark</item>
+        <item name="header_action_refresh">@drawable/ic_action_refresh_dark</item>
+        <item name="dayHeaderTitle">@color/day_header_title_light</item>
+        <item name="dayHeaderSeparator">@color/day_header_separator_light</item>
+        <item name="eventEntryTitle">@color/event_entry_title_light</item>
+        <item name="eventEntryDetails">@color/event_entry_details_light</item>
+        <item name="eventEntryAlarm">@drawable/ic_alarm_dark</item>
+        <item name="eventEntryRecurring">@drawable/ic_recurring_dark</item>
+    </style>
+
+    <style name="Theme.ToDoAgenda.White" parent="Theme.AppCompat.Light">
+        <item name="header">@color/header_current_date_white</item>
+        <item name="header_action_overflow">@drawable/ic_action_overflow_dark</item>
+        <item name="header_action_go_to_today">@drawable/ic_action_today_dark</item>
+        <item name="header_action_add_event">@drawable/ic_action_add_event_dark</item>
+        <item name="header_action_add_task">@drawable/ic_action_add_task_dark</item>
+        <item name="header_action_refresh">@drawable/ic_action_refresh_dark</item>
+        <item name="dayHeaderTitle">@color/day_header_title_white</item>
+        <item name="dayHeaderSeparator">@color/day_header_separator_white</item>
+        <item name="eventEntryTitle">@color/event_entry_title_white</item>
+        <item name="eventEntryDetails">@color/event_entry_details_white</item>
+        <item name="eventEntryAlarm">@drawable/ic_alarm_dark</item>
+        <item name="eventEntryRecurring">@drawable/ic_recurring_dark</item>
+    </style>
+
+</resources>

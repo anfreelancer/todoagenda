@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    useLibrary 'android.test.mock'
+
+    defaultConfig {
+        versionCode 692
+        versionName '4.4.1'
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+
+        applicationId "com.luteapp.todoagenda"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        archivesBaseName = "TodoAgenda-$versionName".toString()
+
+        buildConfigField "String", "ORG_TASKS_AUTHORITY", "\"org.tasks\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            lintOptions {
+                warning 'MissingTranslation','InvalidPackage'
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    if (project.hasProperty('todoagendaStoreFile')) {
+        signingConfigs {
+            releaseConfig {
+                storeFile file(todoagendaStoreFile)
+                storePassword todoagendaStorePassword
+                keyAlias todoagendaKeyAlias
+                keyPassword todoagendaKeyPassword
+            }
+        }
+        buildTypes.release.signingConfig signingConfigs.releaseConfig
+    }
+    // See https://www.timroes.de/2013/09/22/handling-signing-configs-with-gradle/
+    if (project.hasProperty("todoagenda.signing")
+            && new File(project.property("todoagenda.signing").toString() + ".gradle").exists()) {
+        apply from: project.property("todoagenda.signing") + ".gradle";
+    }
+}
+
+dependencies {
+    implementation "joda-time:joda-time:$jodaTimeVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "androidx.preference:preference:$preferenceVersion"
+    implementation project(':colorpicker')
+    implementation "com.android.billingclient:billing:4.0.0"
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    androidTestImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test:core:$testRunnerVersion"
+    androidTestImplementation "androidx.test:runner:$testRunnerVersion"
+    androidTestImplementation "androidx.test:rules:$testRulesVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoCoreVersion"
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion"
+}

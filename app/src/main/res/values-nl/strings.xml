@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todo Agenda</string>
+    <string name="widget_name">Todo Agenda</string>
+    <string name="widget_instance_name">Naam widget</string>
+    <string name="yesterday">Gisteren</string>
+    <string name="today">Vandaag</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="not_initialized_yet">Nog niet geïnitialiseerd...</string>
+    <string name="no_events_to_show">Geen gebeurtenissen om weer te geven</string>
+    <string name="no_upcoming_events">Geen aankomende evenementen</string>
+    <string name="open_prefs_desc">Open de instellingen van de agenda widget</string>
+    <string name="go_to_today">Ga naar vandaag</string>
+    <string name="add_event_desc">Nieuwe gebeurtenis aan de agenda toevoegen</string>
+    <string name="add_task_desc">Nieuwe taak toevoegen</string>
+    <string name="indicator_alarm">Indicator als een alarm is ingesteld</string>
+    <string name="indicator_recurring">Indicator bij terugkerende gebeurtenis</string>
+    <string name="no_title">(Geen titel)</string>
+    <string name="grant_permissions">Toestemming geven</string>
+    <string name="grant_permissions_verbose">De widget heeft toestemming nodig om agenda\'s te mogen lezen.\n
+        Tik hier om toestemming te verlenen.</string>
+    <string name="past_header">Verleden en vervallen</string>
+    <string name="end_of_list_header">Andere gebeurtenissen</string>
+    <string name="permissions_justification">Welkom bij de Todo Agenda, de makkelijkste manier om toegang te krijgen tot uw agenda\'s en taken.\n\n
+        Om de widget te kunnen gebruiken moet u hem toegang verlenen tot uw agenda en taken.</string>
+    <string name="no_widgets_found">Voeg eerst een \"Todo Agenda\" widget toe aan het startscherm van uw apparaat.</string>
+    <string name="select_a_widget_to_configure">Selecteer de in te stellen widget</string>
+    <string name="close">Sluiten</string>
+    <string name="go_to_home_screen">Ga naar startscherm</string>
+    <string name="loading_with_dots">Laden...</string>
+    <string name="widget_header">Widget koptekst</string>
+    <string name="day_header">Dag koptekst</string>
+    <string name="event_entry">Gebeurtenis invoer</string>
+    <string name="todays_events">Gebeurtenissen van vandaag</string>
+    <string name="future_events">Toekomstige gebeurtenissen</string>
+    <string name="not_found">Niet gevonden </string>
+    <!-- Descriptions for app markets -->
+    <string name="app_description_80_chars_max">Startscherm widget die gebeurtenissen weergeven uit gesel. agenda\'s/takenlijsten</string>
+    <string name="app_description_4000_chars_max_part01">Todo Agenda is een startscherm-widget voor je Android-apparaat.
+         Elke widget heeft zijn eigen instellingen en geeft een geconfigureerde lijst met agendagebeurtenissen en taken weer
+         zodat je eenvoudig een glimp kunt opvangen van je geplande, huidige en aanstaande afspraken.</string>
+    <string name="app_description_4000_chars_max_part02">Kenmerken</string>
+    <string name="app_description_4000_chars_max_part15">Geen reclame. Gratis en open source.</string>
+    <string name="app_description_4000_chars_max_part03">Geeft gebeurtenissen uit je agenda\'s en takenlijsten weer
+         voor de geselecteerde periodes in het verleden en in de toekomst.</string>
+    <string name="app_description_4000_chars_max_part04">Werkt automatisch bij wanneer u een gebeurtenis toevoegt/verwijdert/wijzigt. U kunt ook op verzoek bijwerken.</string>
+    <string name="app_description_4000_chars_max_part05">Selecteer alleen de agenda\'s en takenlijsten
+        die je in de widget wilt weergeven.</string>
+    <string name="app_description_4000_chars_max_part06">Maak indien nodig meerdere widgets aan. Elke widget heeft zijn eigen instellingen,
+        inclusief lay-outs, kleuren, filters, geselecteerde agenda\'s en takenlijsten.</string>
+    <string name="app_description_4000_chars_max_part07">Achtergrondkleuren en transparantie aanpassen
+        van verschillende widgetonderdelen, zwarte en witte kleur voor teksten.</string>
+    <string name="app_description_4000_chars_max_part08">Scroll door de lijst met gebeurtenissen.
+        Gebruik de knop \"Ga naar vandaag\" om direct terug te keren naar vandaag.</string>
+    <string name="app_description_4000_chars_max_part09">Verander de tekstgrootte van de widget.</string>
+    <string name="app_description_4000_chars_max_part10">Volledig aanpasbare widget met alternatieve lay-outs.</string>
+    <string name="app_description_4000_chars_max_part11">Indicatoren voor herinneringen en herhaalde gebeurtenissen.</string>
+    <string name="app_description_4000_chars_max_part12">Vergrendel de tijdzone als u naar verschillende tijdzones reist.</string>
+    <string name="app_description_4000_chars_max_part13">Schakel widget-koptekst, dag koptekst, gebeurtenispictogrammen, dagen vanaf vandaag,
+        etc. uit en geef alleen weer wat je nodig hebt.</string>
+    <string name="app_description_4000_chars_max_part16">Dubbele gebeurtenissen verbergen.</string>
+    <string name="app_description_4000_chars_max_part17">Back-up en herstel instellingen,
+        kopieer widgets op hetzelfde of andere apparaten.</string>
+    <string name="app_description_4000_chars_max_part14">Android 7+ ondersteund. Ondersteunt Android tablets.</string>
+    <!-- Preference frame: Layout -->
+    <string name="compact_layout_title">Compacte indeling</string>
+    <string name="compact_layout_off_desc">Normale ruimte tussen widgetonderdelen</string>
+    <string name="compact_layout_on_desc">Minimale ruimte tussen widgetonderdelen, dunne randen</string>
+    <string name="layout_prefs_desc">Plaatsen, weergeven en verbergen widget-elementen</string>
+    <string name="layout_prefs_title">Indeling</string>
+    <string name="widget_header_layout">Widget koptekst indeling</string>
+    <string name="pref_event_entry_layout_title">Invoer gebeurtenis opmaak</string>
+    <string name="default_multiline_layout">Tijd onder de titel</string>
+    <string name="widget_header_date_format">Widget koptekst datum opmaak</string>
+    <string name="default_value">Standaard</string>
+    <string name="single_line_layout">Alles op één regel</string>
+    <string name="two_rows_layout">Twee rijen indeling</string>
+    <string name="hidden">Verborgen</string>
+    <string name="appearance_day_header_alignment_desc">De uitlijning van de dag koptekst instellen</string>
+    <string name="appearance_day_header_alignment_title">Dag koptekst uitlijning</string>
+    <string name="appearance_day_header_alignment_left">Links</string>
+    <string name="appearance_day_header_alignment_center">Centreren</string>
+    <string name="appearance_day_header_alignment_right">Rechts</string>
+    <string name="horizontalLineBelowDayHeader">Horizontale lijn onder dag koptekst</string>
+    <string name="appearance_multiline_title_title">Titel op meerdere regels</string>
+    <string name="appearance_multiline_title_desc">De titel van de gebeurtenis over meerdere regels verdelen</string>
+    <string name="appearance_show_days_without_events_title">Dagen zonder gebeurtenissen weergeven</string>
+    <string name="appearance_show_days_without_events_desc">Dag kopteksten voor dagen zonder gebeurtenissen weergeven</string>
+    <string name="appearance_show_day_headers_title">Dag kopteksten weergeven</string>
+    <string name="appearance_show_day_headers_desc">Dag kopteksten altijd weergeven</string>
+    <string name="day_header_date_format">Dag koptekst datum opmaak</string>
+    <string name="show_past_events_under_one_header_title">Koptekst voor verlopen gebeurtenissen</string>
+    <string name="show_past_events_under_one_header_desc">Alle verlopen gebeurtenissen onder één koptekst \"Vervallen\" weergeven</string>
+    <string name="show_event_icon_title">Pictogram gebeurtenis weergeven</string>
+    <string name="show_event_icon_desc">Kleurenbalk agenda / Pictogram taak voor gebeurtenis weergeven</string>
+    <string name="entry_date_format">Invoer datum opmaak</string>
+    <string name="multiline_details_title">Details op meerdere regels</string>
+    <string name="multiline_details_desc">De tijd en locatie van de gebeurtenis over meerdere regels verdelen</string>
+    <!-- Date format preference -->
+    <string name="simple_options">Eenvoudige opties</string>
+    <string name="date_format_default_weekday">Standaard met weekdag</string>
+    <string name="date_format_default_ytt">Standaard met gisteren, vandaag en morgen</string>
+    <string name="date_format_default_days">Standaard met aantal dagen tot gebeurtenis</string>
+    <string name="appearance_abbreviate_dates_title">Datums met weekdag afkorten</string>
+    <string name="appearance_abbreviate_dates_desc">Gebruik drie-letteropmaak voor datums</string>
+    <string name="date_format_number_of_days_to_event">Aantal dagen tot gebeurtenis</string>
+    <string name="date_format_day_in_month">Dag in maand</string>
+    <string name="date_format_month_day">Maandelijkse</string>
+    <string name="date_format_week_in_year">Week in jaar</string>
+    <string name="pattern_example">Patroon voorbeeld</string>
+    <string name="custom_pattern">Aangepast patroon</string>
+    <string name="sample_date">Voorbeelddatum (in yyyy-MM-dd opmaak)</string>
+    <string name="result_formatted_date">Resultaat, opgemaakte datum</string>
+    <string name="N_days_ago">%d dag(en) geleden</string>
+    <string name="in_N_days">in %d dagen</string>
+    <!-- Preference frame: Colors -->
+    <string name="different_colors_for_dark_title">Verschillende kleuren voor donker Android-systeem thema</string>
+    <string name="different_colors_for_dark_off_desc">Kleuren zijn hetzelfde</string>
+    <string name="different_colors_for_dark_on_desc">Schakel het Android systeem Donker thema in/uit om de kleuren in te stellen
+        voor het overeenkomstige donker/licht thema.</string>
+    <string name="colors_prefs_desc">Kleur en ondoorzichtigheid van teksten en achtergronden</string>
+    <string name="appearance_group_color_title">Kleuren</string>
+    <string name="colors_light">Kleuren voor lichte thema</string>
+    <string name="colors_dark">Kleuren voor donkere thema</string>
+    <string name="appearance_background_color_title">Achtergrondkleur</string>
+    <string name="appearance_background_color_desc">De kleur van de achtergrond aanpassen</string>
+    <string name="appearance_past_events_background_color_title">Achtergrondkleur van gebeurtenissen uit het verleden</string>
+    <string name="appearance_past_events_background_color_desc">Pas de achtergrondkleur van afspraken in het verleden aan</string>
+    <string name="todays_events_background_color_title">Achtergrondkleur van de gebeurtenissen van vandaag</string>
+    <string name="todays_events_background_color_desc">Achtergrondkleur van de gebeurtenissen van vandaag aanpassen</string>
+    <string name="appearance_header_theme_title">Widget koptekst kleur arcering</string>
+    <string name="appearance_header_theme_desc">De kop van de widget in donkere of lichte tint weergeven</string>
+    <string name="widget_header_background_color_desc">Kleur van de koptekst van de widget aanpassen. Standaard transparant</string>
+    <string name="widget_header_background_color_title">Widget koptekst achtergrond kleur</string>
+    <string name="day_header_theme_title">Dag koptekst kleur</string>
+    <string name="day_header_theme_desc">Dag koptekst in donkere of lichte schaduw weergeven</string>
+    <string name="appearance_entries_theme_title">Gebeurtenis tekst arcering</string>
+    <string name="appearance_entries_theme_desc">Gebeurtenis tekst in donkere of lichte tint weergeven</string>
+    <string name="appearance_theme_black">Wit</string>
+    <string name="appearance_theme_dark">Licht</string>
+    <string name="appearance_theme_light">Donker</string>
+    <string name="appearance_theme_white">Zwart</string>
+    <!-- Preference frame: Event details -->
+    <string name="event_details_prefs">Details gebeurtenissen</string>
+    <string name="event_details_prefs_desc">Instellen welke details weergegeven moeten worden voor een gebeurtenis</string>
+    <string name="event_details_show_end_time_title">Eindtijd</string>
+    <string name="event_details_show_end_time_desc">Toon de eindtijd van de gebeurtenis</string>
+    <string name="event_details_show_location_title">Toon locatie</string>
+    <string name="event_details_show_location_desc">De locatie weergeven of verbergen van de gebeurtenis</string>
+    <string name="event_details_fill_all_day_events_title">Opvullen hele-dag gebeurtenis</string>
+    <string name="event_details_fill_all_day_events_desc">Toon een vermelding voor elke dag van de hele-dag gebeurtenis</string>
+    <string name="event_details_indicators">Indicatoren</string>
+    <string name="event_details_indicate_alert_desc">Indicator voor waarschuwingen weergeven</string>
+    <string name="event_details_indicate_alert_title">Meldingen</string>
+    <string name="event_details_indicate_recurring_desc">Indicator voor terugkerende gebeurtenissen weergeven</string>
+    <string name="event_details_indicate_recurring_title">Terugkerende gebeurtenissen</string>
+    <!-- Preference frame: Event filters -->
+    <string name="event_filters_prefs">Gebeurtenisfilters</string>
+    <string name="event_filters_prefs_desc">Welke huidige, toekomstige en vervallen afspraken er weergegeven moeten worden</string>
+    <string name="all_events">Alle gebeurtenissen</string>
+    <string name="current_and_future_events">Huidige en toekomstige gebeurtenissen</string>
+    <string name="past_events">Gebeurtenissen uit het verleden</string>
+    <string name="event_details_event_range_title">Datumbereik</string>
+    <string name="event_details_event_range_desc">Configureren van het aantal weer te geven gebeurtenissen</string>
+    <string name="event_range_today">Vandaag</string>
+    <string name="event_range_one_day">Een dag</string>
+    <string name="event_range_one_week">Een week</string>
+    <string name="event_range_two_weeks">Twee weken</string>
+    <string name="event_range_one_month">Een maand</string>
+    <string name="event_range_two_months">Twee maanden</string>
+    <string name="event_range_three_months">Drie maanden</string>
+    <string name="event_range_six_months">Zes maanden</string>
+    <string name="event_range_one_year">Een jaar</string>
+    <string name="show_past_events_with_default_color_title">Alle afspraken in het verleden weergeven met de standaardkleur</string>
+    <string name="this_option_is_turned_off">(uitgeschakeld)</string>
+    <string name="pref_events_ended_title">Gebeurtenissen uit het verleden weergeven</string>
+    <string name="ended_one_hour_ago">Eindigde een uur geleden</string>
+    <string name="ended_two_hours_ago">Eindigde twee uur geleden</string>
+    <string name="ended_four_hours_ago">Eindigde vier uur geleden</string>
+    <string name="ended_today">Eindigde vandaag</string>
+    <string name="ended_yesterday">Eindigde gisteren</string>
+    <string name="ended_one_week_ago">Eindigde een week geleden</string>
+    <string name="ended_two_weeks_ago">Eindigde twee weken geleden</string>
+    <string name="ended_one_month_ago">Eindigde een maand geleden</string>
+    <string name="ended_two_months_ago">Eindigde twee maanden geleden</string>
+    <string name="ended_three_months_ago">Eindigde drie maanden geleden</string>
+    <string name="ended_six_months_ago">Eindigde zes maanden geleden</string>
+    <string name="ended_one_year_ago">Eindigde een jaar geleden</string>
+    <string name="pref_hide_based_on_keywords_title">Verbergen op basis van zoekwoorden in een titel</string>
+    <string name="show_only_closest_instance_of_recurring_event">Alleen de eerstvolgende van een terugkerende afspraak weergeven</string>
+    <string name="hide_duplicates">Duplicaten verbergen</string>
+    <string name="all_day_events_placement_title">Plaatsing van hele dag gebeurtenissen</string>
+    <string name="all_day_events_placement_top_of_the_days_events">Bovenaan de gebeurtenissen van de dag</string>
+    <string name="all_day_events_placement_bottom_of_the_days_events">Onderaan de gebeurtenissen van de dag</string>
+    <string name="task_scheduling_title">Taak planning</string>
+    <string name="task_scheduling_date_due">Taken onder vervaldatum weergeven</string>
+    <string name="task_scheduling_date_started">Taken onder datum gestart weergeven</string>
+    <string name="tasks_wo_dates_title">Taken zonder start- en vervaldatums</string>
+    <string name="tasks_wo_dates_end_of_list">Aan het einde van de hele gebeurtenissenlijst weergeven</string>
+    <string name="tasks_wo_dates_end_of_today">Aan het einde van vandaag weergeven</string>
+    <string name="tasks_wo_dates_hide">Verbergen</string>
+    <string name="filter_mode">Probleemoplosser filteren</string>
+    <string name="filter_mode_normal">Normaal filteren</string>
+    <string name="filter_mode_debug">Fouten filtering</string>
+    <string name="filter_mode_no_filtering">Alle filters negeren (uitschakelen)</string>
+    <!-- Preference frame: Calendars and Task Lists -->
+    <string name="calendars_prefs">Agenda\'s en Takenlijsten</string>
+    <string name="calendars_prefs_desc">Selecteer de weer te geven agenda\'s</string>
+    <string name="task_source_opentasks">OpenTasks (door dmfs GmbH)</string>
+    <string name="task_source_samsung">Samsung Kalender</string>
+    <!-- Preference frame: Other -->
+    <string name="device_default">Apparaat standaard</string>
+    <string name="other_prefs_desc">Grootte, datum en tijd opmaak, etc.</string>
+    <string name="other_prefs_title">Overige instellingen</string>
+    <string name="appearance_prefs">Uiterlijk</string>
+    <string name="appearance_prefs_desc">Het uiterlijk van de widget aanpassen</string>
+    <string name="appearance_text_size_title">Tekstgrootte</string>
+    <string name="appearance_text_size_desc">De tekstgrootte wijzigen</string>
+    <string name="appearance_text_size_very_small">Zeer klein</string>
+    <string name="appearance_text_size_small">Klein</string>
+    <string name="appearance_text_size_medium">Gemiddeld</string>
+    <string name="appearance_text_size_large">Groot</string>
+    <string name="appearance_text_size_very_large">Erg Groot</string>
+    <string name="appearance_date_format_desc">Tijden in am/pm of 24-uurs opmaak weergeven</string>
+    <string name="appearance_time_format_title">Tijd opmaak</string>
+    <string name="appearance_date_format_auto">Automatisch</string>
+    <string name="appearance_date_format_24">17:00</string>
+    <string name="appearance_date_format_12">5:00 pm</string>
+    <string name="lock_time_zone_off_desc">Ontgrendeld, huidige tijdzone: %s</string>
+    <string name="lock_time_zone_on_desc">Vergrendeld op %s</string>
+    <string name="lock_time_zone_title">Tijdzone vergrendelen</string>
+    <string name="snapshot_mode">Vergrendelingslijst van gebeurtenissen (Snapshot modus)</string>
+    <string name="snapshot_mode_live_data">Live data uit echte bronnen</string>
+    <string name="snapshot_mode_time">Snapshot zoals gezien op het moment dat het werd genomen: %s</string>
+    <string name="snapshot_mode_now">Snapshot opgeslagen op de huidige tijd (gemaakt op %s)</string>
+    <string name="refresh_period_minutes">Auto vernieuwen periode, minuten</string>
+    <string name="refresh_period_minutes_desc">Ververs de widget elke %d minuten automatisch</string>
+    <!-- Preference frame: Feedback and Backup -->
+    <string name="feedback_prefs">Feedback en back-up</string>
+    <string name="feedback_prefs_desc">Neem contact op met ons, back-up en herstel instellingen</string>
+    <string name="feedback_github_desc">Feedback geven op de projectpagina</string>
+    <string name="feedback_github_title">Bezoek op Github</string>
+    <string name="feedback_play_store_desc">Waardeer en reageer in de Google Play Store</string>
+    <string name="feedback_play_store_title">Bezoek in de Google Play Store</string>
+    <string name="refresh_desc">Vernieuwen</string>
+    <string name="share_events_for_debugging_desc">Maak een rapport om ontwikkelaars te helpen problemen op te lossen.
+        Filter eerst evenementen om je privacy te beschermen maar laat nog steeds een probleem zien</string>
+    <string name="share_events_for_debugging_title">Deel afspraken en instellingen voor foutopsporing</string>
+    <string name="backup_settings_title">Back-up instellingen</string>
+    <string name="backup_settings_desc">Hetzelfde als \"Deel events voor foutopsporing\", maar geen events bevatten</string>
+    <string name="restore_settings_title">Herstel instellingen vanuit een back-up</string>
+    <string name="restore_settings_desc">De instellingen van elke To-Do Agenda widget moeten apart worden hersteld</string>
+</resources>

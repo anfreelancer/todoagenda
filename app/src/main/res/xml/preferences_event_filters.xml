@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/past_events">
+        <ListPreference
+            android:defaultValue="NONE"
+            android:entries="@array/pref_events_ended_entries"
+            android:entryValues="@array/pref_events_ended_values"
+            android:key="eventsEnded"
+            android:summary="@string/this_option_is_turned_off"
+            android:title="@string/pref_events_ended_title" />
+        <com.luteapp.todoagenda.prefs.MultilineCheckBoxPreference
+            android:defaultValue="false"
+            android:key="showPastEventsWithDefaultColor"
+            android:title="@string/show_past_events_with_default_color_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/current_and_future_events">
+        <ListPreference
+            android:defaultValue="30"
+            android:entries="@array/pref_event_range_entries"
+            android:entryValues="@array/pref_event_range_values"
+            android:key="eventRange"
+            android:summary="@string/event_range_one_month"
+            android:title="@string/event_details_event_range_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/all_events">
+        <EditTextPreference
+            android:key="hideBasedOnKeywords"
+            android:summary="@string/this_option_is_turned_off"
+            android:title="@string/pref_hide_based_on_keywords_title" />
+        <com.luteapp.todoagenda.prefs.MultilineCheckBoxPreference
+            android:defaultValue="false"
+            android:key="showOnlyClosestInstanceOfRecurringEvent"
+            android:title="@string/show_only_closest_instance_of_recurring_event" />
+        <com.luteapp.todoagenda.prefs.MultilineCheckBoxPreference
+            android:defaultValue="false"
+            android:key="hideDuplicates"
+            android:title="@string/hide_duplicates" />
+        <ListPreference
+            android:key="allDayEventsPlacement"
+            android:defaultValue="top_day"
+            android:entries="@array/pref_all_day_events_placement_entries"
+            android:entryValues="@array/pref_all_day_events_placement_values"
+            android:title="@string/all_day_events_placement_title" />
+        <ListPreference
+            android:key="taskScheduling"
+            android:defaultValue="date_due"
+            android:entries="@array/pref_task_scheduling_entries"
+            android:entryValues="@array/pref_task_scheduling_values"
+            android:title="@string/task_scheduling_title" />
+        <ListPreference
+            android:key="taskWithoutDates"
+            android:defaultValue="end_of_list"
+            android:entries="@array/pref_tasks_wo_dates_entries"
+            android:entryValues="@array/pref_tasks_wo_dates_values"
+            android:title="@string/tasks_wo_dates_title" />
+        <ListPreference
+            android:key="filterMode"
+            android:defaultValue="normal"
+            android:entries="@array/pref_filter_mode_entries"
+            android:entryValues="@array/pref_filter_mode_values"
+            android:title="@string/filter_mode" />
+    </PreferenceCategory>
+</PreferenceScreen>

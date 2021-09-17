@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Todo Agenda Smart</string>
+    <string name="buy" translatable="false">BUY</string>
+    <string name="premium" translatable="false">Premium</string>
+    <string name="widget_name">Todo Agenda</string>
+    <string name="widget_instance_name">Widget name</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="not_initialized_yet">Not initialized yet...</string>
+    <string name="no_events_to_show">No events to show</string>
+    <string name="no_upcoming_events">No upcoming events</string>
+    <string name="open_prefs_desc">Open the settings of the calendar widget</string>
+    <string name="go_to_today">Go to Today</string>
+    <string name="add_event_desc">Add new calender event</string>
+    <string name="add_task_desc">Add new task</string>
+    <string name="indicator_alarm">Indicator if an alarm has been set</string>
+    <string name="indicator_recurring">Indicator if the event is recurring</string>
+    <string name="no_title">(No title)</string>
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="grant_permissions_verbose">Widget requires permission to read calendars and tasks.\n
+        Tap here to grant permissions.</string>
+    <string name="past_header">Past and due</string>
+    <string name="end_of_list_header">Other events</string>
+    <string name="permissions_justification">Welcome to the Todo Agenda, the easy access to your calendars and tasks.\n\n
+        To make the most of the widget you need to grant it access to your calendars and tasks.</string>
+    <string name="no_widgets_found">Please add a \"Todo Agenda\" widget from the home screen of your device first.</string>
+    <string name="select_a_widget_to_configure">Select a widget to configure</string>
+    <string name="close">Close</string>
+    <string name="go_to_home_screen">Go to home screen</string>
+    <string name="task_icon" translatable="false">✔</string>
+    <string name="loading_with_dots">Loading...</string>
+    <string name="widget_header">Widget header</string>
+    <string name="day_header">Day header</string>
+    <string name="event_entry">Event entry</string>
+    <string name="todays_events">Today\'s events</string>
+    <string name="future_events">Future events</string>
+    <string name="not_found">Not found</string>
+
+    <!-- Descriptions for app markets -->
+    <string name="app_description_80_chars_max">Home screen widgets displaying events from selected calendars and task lists</string>
+    <string name="app_description_4000_chars_max_part01">Todo Agenda is home screen widgets for your Android device.
+        Each widget has its own settings and displays configured list of calendar events and tasks
+        so that you can easily have a glimpse at your due, current and upcoming appointments.</string>
+    <string name="app_description_4000_chars_max_part02">Features</string>
+    <string name="app_description_4000_chars_max_part15">No advertising. Free and Open Source.</string>
+    <string name="app_description_4000_chars_max_part03">Displays events from your calendars and task lists
+        for the selected periods in the past and in the future.</string>
+    <string name="app_description_4000_chars_max_part04">Automatically updates when you add/delete/modify an event.
+        Or you may update the list instantly.</string>
+    <string name="app_description_4000_chars_max_part05">Select only the calendars and task lists
+        that you want to see in the widget.</string>
+    <string name="app_description_4000_chars_max_part06">Create several widgets, if you need. Each widget has its own settings,
+        including layouts, colors, filters, selected calendars and task lists.</string>
+    <string name="app_description_4000_chars_max_part07">Customize colors and transparency of different widget parts,
+        of their texts and backgrounds.</string>
+    <string name="app_description_4000_chars_max_part08">Scroll through the list of events.
+        Use "Go to Today" button to return to today instantly.</string>
+    <string name="app_description_4000_chars_max_part09">Customize the text size of the widget.</string>
+    <string name="app_description_4000_chars_max_part10">Fully resizable widget with alternative layouts.</string>
+    <string name="app_description_4000_chars_max_part11">Indicators for alerts and recurring events.</string>
+    <string name="app_description_4000_chars_max_part12">Lock time zone when travelling to different time zones.</string>
+    <string name="app_description_4000_chars_max_part13">Turn off Widget header, Day headers, event icons, Days from today,
+        etc. and see only what you need.</string>
+    <string name="app_description_4000_chars_max_part16">Hide duplicated events.</string>
+    <string name="app_description_4000_chars_max_part17">Backup and restore settings,
+        cloning widgets on the same or different devices.</string>
+    <string name="app_description_4000_chars_max_part14">Android 7+ supported. Supports Android tablets.</string>
+
+    <!-- Preference frame: Layout -->
+    <string name="compact_layout_title">Compact layout</string>
+    <string name="compact_layout_off_desc">Normal space between widget parts</string>
+    <string name="compact_layout_on_desc">Minimum space between widget parts, thin borders</string>
+    <string name="layout_prefs_desc">Place, show and hide widget parts</string>
+    <string name="layout_prefs_title">Layout</string>
+    <string name="widget_header_layout">Widget header layout</string>
+    <string name="pref_event_entry_layout_title">Event entry layout</string>
+    <string name="default_multiline_layout">Time below title</string>
+    <string name="widget_header_date_format">Widget header date format</string>
+    <string name="default_value">Default</string>
+    <string name="single_line_layout">All in one row</string>
+    <string name="two_rows_layout">Two rows layout</string>
+    <string name="hidden">Hidden</string>
+    <string name="appearance_day_header_alignment_desc">Set the alignment of the day header</string>
+    <string name="appearance_day_header_alignment_title">Day header alignment</string>
+    <string name="appearance_day_header_alignment_left">Left</string>
+    <string name="appearance_day_header_alignment_center">Center</string>
+    <string name="appearance_day_header_alignment_right">Right</string>
+    <string name="horizontalLineBelowDayHeader">Horizontal line below Day header</string>
+    <string name="appearance_multiline_title_title">Multiline title</string>
+    <string name="appearance_multiline_title_desc">Spread event title over multiple lines</string>
+    <string name="appearance_show_days_without_events_title">Show days without events</string>
+    <string name="appearance_show_days_without_events_desc">Show day headers for days without events</string>
+    <string name="appearance_show_day_headers_title">Show day headers</string>
+    <string name="appearance_show_day_headers_desc">Show day headers at all</string>
+    <string name="day_header_date_format">Day header date format</string>
+    <string name="show_past_events_under_one_header_title">Header for past/due events</string>
+    <string name="show_past_events_under_one_header_desc">Show all past/due events under one "Past and due" header</string>
+    <string name="show_event_icon_title">Show event icon</string>
+    <string name="show_event_icon_desc">Show Calendar color bar / Task icon for event</string>
+    <string name="entry_date_format">Entry date format</string>
+    <string name="multiline_details_title">Multiline details</string>
+    <string name="multiline_details_desc">Spread event time and location over multiple lines</string>
+
+    <!-- Date format preference -->
+    <string name="simple_options">Simple options</string>
+    <string name="date_format_default_weekday">Default with Weekday</string>
+    <string name="date_format_default_ytt">Default with Yesterday, Today and Tomorrow</string>
+    <string name="date_format_default_days">Default with Number of days to event</string>
+    <string name="appearance_abbreviate_dates_title">Abbreviate dates with Weekday</string>
+    <string name="appearance_abbreviate_dates_desc">Use three-letter format for dates</string>
+    <string name="date_format_number_of_days_to_event">Number of days to event</string>
+    <string name="date_format_day_in_month">Day in month</string>
+    <string name="date_format_month_day">Month-Day</string>
+    <string name="date_format_week_in_year">Week in year</string>
+    <string name="pattern_example">Pattern example</string>
+    <string name="custom_pattern">Custom pattern</string>
+    <string name="sample_date">Sample date (in yyyy-MM-dd format)</string>
+    <string name="result_formatted_date">Result, formatted date</string>
+    <string name="N_days_ago">%d days ago</string>
+    <string name="in_N_days">in %d days</string>
+
+    <!-- Preference frame: Colors -->
+    <string name="different_colors_for_dark_title">Different colors for Android system Dark theme</string>
+    <string name="different_colors_for_dark_off_desc">Colors are the same</string>
+    <string name="different_colors_for_dark_on_desc">Switch Android system Dark theme on/off to set colors
+        for Dark/Light theme correspondingly.</string>
+    <string name="colors_prefs_desc">Colors and opacity of texts and backgrounds</string>
+    <string name="appearance_group_color_title">Colors</string>
+    <string name="colors_light">Colors for Light theme</string>
+    <string name="colors_dark">Colors for Dark theme</string>
+    <string name="text_color_source">How Text color is defined</string>
+    <string name="text_color_source_auto">Auto text shading</string>
+    <string name="text_color_source_auto_desc">Text shading (White, Light, Dark or Black) is set automatically based on background color</string>
+    <string name="text_color_source_shading">Manual text shading</string>
+    <string name="text_color_source_shading_desc">Text shading should be set for each part of the widget</string>
+    <string name="text_color_source_color">Custom text colors</string>
+    <string name="text_color_source_color_desc">Text color should be set for each part of the widget</string>
+    <string name="appearance_background_color_title">Background color</string>
+    <string name="appearance_background_color_desc">Adjust the color of the background</string>
+    <string name="appearance_past_events_background_color_title">Past events background color</string>
+    <string name="appearance_past_events_background_color_desc">Adjust background color of past events</string>
+    <string name="todays_events_background_color_title">Today\'s events background color</string>
+    <string name="todays_events_background_color_desc">Adjust background color of today\'s events</string>
+    <string name="appearance_header_theme_title">Widget header text shading</string>
+    <string name="widget_header_text_color">Widget header text color</string>
+    <string name="appearance_header_theme_desc">Show the header of the widget in dark or light shade</string>
+    <string name="widget_header_background_color_desc">Adjust color of the widget header. Transparent by default</string>
+    <string name="widget_header_background_color_title">Widget header background color</string>
+    <string name="day_header_theme_title">Day header text shading</string>
+    <string name="day_header_theme_desc">Show day header text in dark or light shade</string>
+    <string name="day_header_text_color">Day header text color</string>
+    <string name="appearance_entries_theme_title">Event text shading</string>
+    <string name="event_text_color">Event text color</string>
+    <string name="appearance_entries_theme_desc">Show event text in dark or light shade</string>
+    <string name="appearance_theme_black">White</string>
+    <string name="appearance_theme_dark">Light</string>
+    <string name="appearance_theme_light">Dark</string>
+    <string name="appearance_theme_white">Black</string>
+
+    <!-- Preference frame: Event details -->
+    <string name="event_details_prefs">Event details</string>
+    <string name="event_details_prefs_desc">Configure what details to show for an event</string>
+    <string name="event_details_show_end_time_title">End time</string>
+    <string name="event_details_show_end_time_desc">Show the event ending time</string>
+    <string name="event_details_show_location_title">Show location</string>
+    <string name="event_details_show_location_desc">Show or hide event location</string>
+    <string name="event_details_fill_all_day_events_title">Fill all day events</string>
+    <string name="event_details_fill_all_day_events_desc">Show an entry for each day of an all day event</string>
+    <string name="event_details_indicators">Indicators</string>
+    <string name="event_details_indicate_alert_desc">Show indicator for alerts</string>
+    <string name="event_details_indicate_alert_title">Alerts</string>
+    <string name="event_details_indicate_recurring_desc">Show indicator for recurring events</string>
+    <string name="event_details_indicate_recurring_title">Recurring events</string>
+
+    <!-- Preference frame: Event filters -->
+    <string name="event_filters_prefs">Event filters</string>
+    <string name="event_filters_prefs_desc">Which current, future and past events to show</string>
+    <string name="all_events">All events</string>
+    <string name="current_and_future_events">Current and future events</string>
+    <string name="past_events">Past events</string>
+    <string name="event_details_event_range_title">Date range</string>
+    <string name="event_details_event_range_desc">Configure the number of events to display</string>
+    <string name="event_range_today">Today</string>
+    <string name="event_range_one_day">One day</string>
+    <string name="event_range_one_week">One week</string>
+    <string name="event_range_two_weeks">Two weeks</string>
+    <string name="event_range_one_month">One month</string>
+    <string name="event_range_two_months">Two months</string>
+    <string name="event_range_three_months">Three months</string>
+    <string name="event_range_six_months">Six months</string>
+    <string name="event_range_one_year">One year</string>
+    <string name="show_past_events_with_default_color_title">Show all past events having default color</string>
+    <string name="this_option_is_turned_off">(disabled)</string>
+    <string name="pref_events_ended_title">Show past events</string>
+    <string name="ended_one_hour_ago">Ended one hour ago</string>
+    <string name="ended_two_hours_ago">Ended two hours ago</string>
+    <string name="ended_four_hours_ago">Ended four hours ago</string>
+    <string name="ended_today">Ended today</string>
+    <string name="ended_yesterday">Ended yesterday</string>
+    <string name="ended_one_week_ago">Ended one week ago</string>
+    <string name="ended_two_weeks_ago">Ended two weeks ago</string>
+    <string name="ended_one_month_ago">Ended one month ago</string>
+    <string name="ended_two_months_ago">Ended two months ago</string>
+    <string name="ended_three_months_ago">Ended three months ago</string>
+    <string name="ended_six_months_ago">Ended six months ago</string>
+    <string name="ended_one_year_ago">Ended one year ago</string>
+    <string name="pref_hide_based_on_keywords_title">Hide based on keywords in a title</string>
+    <string name="show_only_closest_instance_of_recurring_event">Show only the closest instance of a recurring event</string>
+    <string name="hide_duplicates">Hide duplicates</string>
+    <string name="all_day_events_placement_title">All day events placement</string>
+    <string name="all_day_events_placement_top_of_the_days_events">At the top of the day\'s events</string>
+    <string name="all_day_events_placement_bottom_of_the_days_events">At the bottom of the day\'s events</string>
+    <string name="task_scheduling_title">Task scheduling</string>
+    <string name="task_scheduling_date_due">Show tasks under date due</string>
+    <string name="task_scheduling_date_started">Show tasks under date started</string>
+    <string name="tasks_wo_dates_title">Tasks without start and due dates</string>
+    <string name="tasks_wo_dates_end_of_list">Show at the end of the whole event list</string>
+    <string name="tasks_wo_dates_end_of_today">Show at the end of Today</string>
+    <string name="tasks_wo_dates_hide">Hide</string>
+    <string name="filter_mode">Filters troubleshooter</string>
+    <string name="filter_mode_normal">Normal filtering</string>
+    <string name="filter_mode_debug">Debug filtering</string>
+    <string name="filter_mode_no_filtering">Ignore all filters (turn them off)</string>
+
+    <!-- Preference frame: Calendars and Task Lists -->
+    <string name="calendars_prefs">Calendars and Task Lists</string>
+    <string name="calendars_prefs_desc">Select the calendars and task lists to display</string>
+    <string name="task_source_opentasks">OpenTasks (by dmfs GmbH)</string>
+    <string name="task_source_samsung">Samsung Calendar</string>
+
+    <!-- Preference frame: Other -->
+    <string name="device_default">Device default</string>
+    <string name="other_prefs_desc">Size, date and time format, etc.</string>
+    <string name="other_prefs_title">Other settings</string>
+    <string name="appearance_prefs">Appearance</string>
+    <string name="appearance_prefs_desc">Adjust the appearance of the widget</string>
+    <string name="appearance_text_size_title">Text size</string>
+    <string name="appearance_text_size_desc">Adjust the text size</string>
+    <string name="appearance_text_size_very_small">Very small</string>
+    <string name="appearance_text_size_small">Small</string>
+    <string name="appearance_text_size_medium">Medium</string>
+    <string name="appearance_text_size_large">Large</string>
+    <string name="appearance_text_size_very_large">Very large</string>
+    <string name="appearance_date_format_desc">Show time in am/pm or 24 hours format</string>
+    <string name="appearance_time_format_title">Time format</string>
+    <string name="appearance_date_format_auto">Automatic</string>
+    <string name="appearance_date_format_24">17:00</string>
+    <string name="appearance_date_format_12">5:00 pm</string>
+    <string name="lock_time_zone_off_desc">Unlocked, current zone: %s</string>
+    <string name="lock_time_zone_on_desc">Locked at %s</string>
+    <string name="lock_time_zone_title">Lock time zone</string>
+    <string name="snapshot_mode">Lock list of events (Snapshot mode)</string>
+    <string name="snapshot_mode_live_data">Live data from real sources</string>
+    <string name="snapshot_mode_time">Snapshot as seen at the time, when it was taken: %s</string>
+    <string name="snapshot_mode_now">Stored snapshot shown at current time (taken at %s)</string>
+    <string name="refresh_period_minutes">Auto refresh period, minutes</string>
+    <string name="refresh_period_minutes_desc">Automatically refresh the widget every %d minute(s)</string>
+
+    <!-- Preference frame: Feedback and Backup -->
+    <string name="feedback_prefs">Feedback and Backup</string>
+    <string name="feedback_prefs_desc">Get in touch with us, backup and restore settings</string>
+    <string name="feedback_github_desc">Provide feedback on the project page</string>
+    <string name="feedback_github_title">Visit widget on Github</string>
+    <string name="feedback_play_store_desc">Rate and comment on Google Play Store</string>
+    <string name="feedback_play_store_title">Visit widget on Google Play Store</string>
+    <string name="refresh_desc">Refresh</string>
+    <string name="share_events_for_debugging_desc">Create a report to help developers troubleshoot problems.
+        Before sharing please filter events to protect your privacy but still demonstrate a problem</string>
+    <string name="share_events_for_debugging_title">Share events and settings for debugging</string>
+    <string name="backup_settings_title">Backup settings</string>
+    <string name="backup_settings_desc">The same as \"Share events for debugging\", but doesn\'t contain events</string>
+    <string name="restore_settings_title">Restore settings from a backup</string>
+    <string name="restore_settings_desc">Settings of each ToDo Agenda widget should be restored separately</string>
+
+</resources>

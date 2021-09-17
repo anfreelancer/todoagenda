@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    ext {
+        compileSdkVersion = 30 as int
+        buildToolsVersion = '30.0.3'
+        minSdkVersion = 24 as int
+        targetSdkVersion = 30 as int
+
+        // Lookup the latest here: https://mvnrepository.com/
+        annotationVersion = '1.0.1'
+        appCompatVersion = '1.2.0'        // https://mvnrepository.com/artifact/androidx.appcompat/appcompat
+        espressoCoreVersion = '3.3.0'
+        jodaTimeVersion = '2.10.3'
+        junitVersion = '4.13'
+        junitJupiterVersion = '5.7.0'
+        preferenceVersion = '1.1.1'
+        testRulesVersion = '1.3.0'
+        testRunnerVersion = '1.3.0'
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.1'
+    }
+
+    // https://github.com/facebook/flipper/issues/146#issuecomment-463667556
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == "androidx") {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion "${targetSdkVersion}.+"
+                }
+            }
+        }
+    }
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
